@@ -1,11 +1,5 @@
 [
-    {
-        "name": "Y-Tech AI Chatbot",
-        "link": "https://y-tech-ai-chatbot.vercel.app/",
-        "image": "🤖",
-        "description": "Advanced AI-powered chatbot built with Next.js and Vercel AI SDK. Features real-time conversations, multiple AI models, and modern UI components.",
-        "tech": ["Next.js", "AI SDK", "TypeScript"]
-    },
+    
     {
         "name": "Image to SVG Converter",
         "link": "https://image-to-svg-psi.vercel.app/",
@@ -45,14 +39,14 @@
         "name": "Aura PDF",
         "link": "https://aura-pdf.vercel.app/",
         "image": "/assets/images/aura-pdf.png",
-        "description": "Advanced PDF reader and editor with AI-powered features. Enhanced document viewing, annotation tools, and intelligent content analysis.",
-        "tech": ["PDF Viewer", "AI Integration", "Document Analysis"]
+        "description": "A powerful PDF compression tool that reduces file size while maintaining quality. Features multiple quality options for optimal file management.",
+        "tech": ["PDF Compression", "Quality Control", "File Optimization"]
     },
     {
         "name": "AI Compass",
         "link": "https://ai-compass-seven.vercel.app/",
         "image": "./assets/images/ai-compass.png",
-        "description": "Intelligent navigation and decision-making tool powered by AI. Provides smart recommendations and guidance for various scenarios and choices.",
-        "tech": ["AI Navigation", "Decision Support", "Smart Recommendations"]
+        "description": "A curated directory of AI tools and solutions, organized for easy exploration and discovery.",
+        "tech": ["AI Tools", "Discovery", "Curated Directory"]
     }
 ]

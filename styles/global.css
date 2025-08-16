@@ -16,3 +16,114 @@ body {
     margin: 0 auto;
     padding: 0 20px;
 }
+
+  /* Styles for the embedded project view */
+        .project-view-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f4f4f4;
+            box-sizing: border-box;
+        }
+        .tool-view-content {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* Added margin-top to separate it from the back button */
+            margin-top: 1rem;
+            
+            /* Enhanced styles for a more beautiful design */
+            background-color: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            
+            /* Center content and add spacing */
+            justify-content: center;
+            gap: 1.5rem;
+        }
+
+        .back-button {
+            background-color: #556080;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+
+        .back-button:hover {
+            background-color: #3b4252;
+        }
+
+        .tool-iframe {
+            width: 100%;
+            height: 90vh;
+            border: none;
+            border-radius: 8px;
+            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Skeleton Loader Styles */
+.loader-container {
+    width: 100%;
+    height: 90vh; /* Match the iframe height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skeleton-loader {
+    width: 90%;
+    max-width: 800px;
+    background-color: #e2e8f0;
+    border-radius: 8px;
+    padding: 2rem;
+    animation: pulse 1.5s infinite;
+}
+
+.skeleton-header {
+    width: 60%;
+    height: 1.5rem;
+    background-color: #cbd5e1;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+}
+
+.skeleton-text {
+    height: 1rem;
+    background-color: #cbd5e1;
+    border-radius: 4px;
+    margin-bottom: 0.75rem;
+}
+
+.skeleton-text.short {
+    width: 75%;
+}
+
+.skeleton-text.medium {
+    width: 90%;
+}
+
+.skeleton-text.long {
+    width: 100%;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: #e2e8f0;
+    }
+    50% {
+        background-color: #f8fafc;
+    }
+    100% {
+        background-color: #e2e8f0;
+    }
+}
