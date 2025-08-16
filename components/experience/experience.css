@@ -1,0 +1,57 @@
+.experience-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.experience-item {
+    background: white;
+    padding: 2.5rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    border-left: 4px solid #3498db;
+}
+
+.experience-header {
+    margin-bottom: 1.5rem;
+}
+
+.experience-title {
+    font-size: 1.4rem;
+    color: #2c3e50;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.company-name {
+    font-size: 1.1rem;
+    color: #3498db;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.experience-date {
+    color: #7f8c8d;
+    font-size: 0.95rem;
+    font-style: italic;
+}
+
+.experience-description ul {
+    list-style: none;
+    padding: 0;
+}
+
+.experience-description li {
+    margin-bottom: 0.8rem;
+    padding-left: 1.5rem;
+    position: relative;
+    line-height: 1.6;
+}
+
+.experience-description li::before {
+    content: '▸';
+    position: absolute;
+    left: 0;
+    color: #3498db;
+    font-weight: bold;
+}
