@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Y-Tech AI Chatbot",
+        "link": "https://y-tech-ai-chatbot.vercel.app/",
+        "image": "🤖",
+        "description": "Advanced AI-powered chatbot built with Next.js and Vercel AI SDK. Features real-time conversations, multiple AI models, and modern UI components.",
+        "tech": ["Next.js", "AI SDK", "TypeScript"]
+    },
+    {
+        "name": "Image to SVG Converter",
+        "link": "https://image-to-svg-psi.vercel.app/",
+        "image": "./assets/images/image-to-svg.png",
+        "description": "Professional tool for converting raster images to scalable SVG format. Features batch processing, quality optimization, and instant preview.",
+        "tech": ["React", "SVG Processing", "File Upload"]
+    },
+    {
+        "name": "Image to WebP Converter",
+        "link": "https://image-to-webp-beta.vercel.app/",
+        "image": "./assets/images/image-to-webp.png",
+        "description": "Efficient image optimization tool that converts images to WebP format for faster web loading. Supports bulk conversion and quality adjustment.",
+        "tech": ["WebP", "Image Optimization", "Batch Processing"]
+    },
+    {
+        "name": "PDF Fusion",
+        "link": "https://pdf-fusion-beige.vercel.app/",
+        "image": "./assets/images/pdf-fusion.png",
+        "description": "Comprehensive PDF management tool for merging, splitting, and manipulating PDF documents. Clean interface with drag-and-drop functionality.",
+        "tech": ["PDF Processing", "File Management", "Drag & Drop"]
+    },
+    {
+        "name": "PDF Splitter & Merger",
+        "link": "https://pdf-splitter-merger.vercel.app/",
+        "image": "./assets/images/pdfSplitter.png",
+        "description": "Specialized tool for PDF document manipulation. Split large PDFs into smaller files or merge multiple documents with page-level control.",
+        "tech": ["PDF.js", "Document Processing", "Page Management"]
+    },
+    {
+        "name": "Image to Favicon Generator",
+        "link": "https://image-to-favicon.vercel.app/",
+        "image": "./assets/images/pdf-fusion.png",
+        "description": "Convert any image into website favicons with multiple sizes and formats. Generates complete favicon packages for web development.",
+        "tech": ["Favicon Generation", "Multi-format", "Web Development"]
+    },
+    {
+        "name": "Aura PDF",
+        "link": "https://aura-pdf.vercel.app/",
+        "image": "/assets/images/aura-pdf.png",
+        "description": "Advanced PDF reader and editor with AI-powered features. Enhanced document viewing, annotation tools, and intelligent content analysis.",
+        "tech": ["PDF Viewer", "AI Integration", "Document Analysis"]
+    },
+    {
+        "name": "AI Compass",
+        "link": "https://ai-compass-seven.vercel.app/",
+        "image": "./assets/images/ai-compass.png",
+        "description": "Intelligent navigation and decision-making tool powered by AI. Provides smart recommendations and guidance for various scenarios and choices.",
+        "tech": ["AI Navigation", "Decision Support", "Smart Recommendations"]
+    }
+]
